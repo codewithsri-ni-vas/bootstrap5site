@@ -6,8 +6,26 @@ input.form-control.me-auto {
     li.nav-item, form >button {
         margin-left: 10px;
     }
+.discover-top-categories ul {
+    list-style: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 0;
+    flex-wrap: wrap;
+    margin: 0 -14px 0 -12px;
+}
 
-
+.discover-top-categories ul li {
+    width: 137px;
+    height: 140px;
+    border-radius: 2px;
+    box-shadow: 0 4px 15px 1px rgb(0 0 0 / 15%);
+    background-color: #ffffff;
+    margin: 13px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
 @media only screen and (min-width : 768px) {
     .navbar-collapse.custom-menu {
     }
